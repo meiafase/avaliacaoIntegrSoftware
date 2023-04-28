@@ -1,0 +1,19 @@
+
+### Cadastrar Folha Pagamento
+POST http://localhost:3000/cadastrarFolhaPagamento
+Content-Type: application/json
+
+{
+    "mes": 5,
+    "ano": 2023,
+    "horas": 1000,
+    "valor": 7,
+    "funcionario": {
+        "nome": "Samuel",
+        "cpf": "11075896528"
+    }
+}
+
+
+### Cadastrar Folha Pagamento
+GET http://localhost:3000/calcular
